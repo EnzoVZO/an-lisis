@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- define que es una pagina html5 -->
+<html lang="es">
+<!-- inicio del documento en espanol -->
+
+<head>
+    <!-- informacion que no se ve en la pagina -->
+    <meta charset="UTF-8">
+    <!-- codificacion para que se muestren bien las letras -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- hace que la pagina se vea bien en celulares -->
+    <title>Landing Page</title>
+    <!-- titulo que aparece en la pestaña del navegador -->
+    <link rel="stylesheet" href="style.css">
+    <!-- conecta con el archivo de estilos CSS -->
+</head>
+
+<body>
+<!-- cuerpo de la pagina, todo lo visible va aqui -->
+
+<header>
+    <!-- parte superior con titulo y boton -->
+    <div class="container">
+        <!-- caja que centra y limita el ancho -->
+        <h1>¡Bienvenido a nuestra pagina!</h1>
+        <!-- titulo principal -->
+        <p>Sitio web de muestra para una empresa ficticia</p>
+        <!-- texto descriptivo -->
+        <a href="#features" class="btn">Ver caracteristicas</a>
+        <!-- boton que lleva a otra seccion -->
+    </div>
+</header>
+
+<section id="features">
+    <!-- seccion con caracteristicas principales -->
+    <div class="container">
+        <h2>Caracteristicas principales</h2>
+        <div class="feature">
+            <h3>Facilidad de uso</h3>
+            <p>Nuestra plataforma es facil de usar para cualquiera.</p>
+        </div>
+        <div class="feature">
+            <h3>Diseno moderno</h3>
+            <p>Tenemos un diseno actualizado y moderno.</p>
+        </div>
+        <div class="feature">
+            <h3>Soporte 24/7</h3>
+            <p>Ayuda disponible todo el dia, todos los dias.</p>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials">
+    <!-- seccion con opiniones de clientes -->
+    <div class="container">
+        <h2>Testimonios</h2>
+        <div class="testimonial">
+            <p>"Increible servicio! Gracias por hacer mi vida mas facil!"</p>
+            <cite>- Cliente feliz</cite>
+        </div>
+        <div class="testimonial">
+            <p>"No pense que encontraria una solucion tan buena. Recomendado!"</p>
+            <cite>- Otro cliente satisfecho</cite>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <!-- seccion con formulario de contacto -->
+    <div class="container">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="Correo electronico" required>
+            <textarea name="message" placeholder="Mensaje" required></textarea>
+            <button type="submit" class="btn">Enviar mensaje</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <!-- pie de pagina con texto de derechos de autor -->
+    <div class="container">
+        <p>&copy; 2025 Compania XYZ. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+/* body es el cuerpo de la pagina, define la letra y quita margenes y espacios */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0;
+}
+
+/* .container es una caja que centra y limita el ancho del contenido */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* header es la parte superior con fondo oscuro y texto blanco centrado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* titulo grande dentro del header */
+header h1 {
+    font-size: 2.5em;
+}
+
+/* .btn es un boton azul con texto blanco y bordes redondos */
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* cambia color del boton cuando pasas el mouse */
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* section es una seccion con espacio arriba y abajo */
+section {
+    padding: 50px 0;
+}
+
+/* h2 es un titulo centrado */
+h2 {
+    text-align: center;
+}
+
+/* .feature es un bloque centrado para caracteristicas */
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* titulo de la caracteristica */
+.feature h3 {
+    font-size: 1.5em;
+}
+
+/* .testimonial es una caja con fondo claro y bordes redondos para opiniones */
+.testimonial {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/* texto de la opinion en cursiva */
+.testimonial p {
+    font-style: italic;
+}
+
+/* autor de la opinion en negrita */
+.testimonial cite {
+    font-weight: bold;
+}
+
+/* formulario centrado con ancho maximo */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* campos de texto, email y mensaje ocupan todo el ancho */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* boton de enviar con fondo azul y texto blanco */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* cambia color del boton enviar cuando pasas el mouse */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* footer es el pie de pagina con fondo oscuro y texto blanco centrado */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
